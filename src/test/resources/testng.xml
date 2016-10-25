@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5" data-provider-thread-count="1">
+	<test name="Test1">
+		<parameter name="path" value="/"/>
+		<classes>
+		    <class name="ru.javacore.SetSpeed"/>
+			<class name="ru.javacore.Login2"/>
+			<class name="ru.javacore.AddFilm2"/>
+			<class name="ru.javacore.AddFilmSample"/>
+			<class name="ru.javacore.SearchLost"/>
+			<class name="ru.javacore.RemoveLost"/>
+			<class name="ru.javacore.RemoveSample"/>
+			<class name="ru.javacore.Logout2"/>
+		</classes>
+	</test>  
+</suite>
